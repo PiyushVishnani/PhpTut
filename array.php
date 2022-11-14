@@ -1,0 +1,40 @@
+<?php
+$arr = [100,200,300,400,800,900];
+$ar = array(10,20,30,40,50,60);
+$data = ["GaRry"=>89,"rohit"=>85,"tushar"=>45,"50"=>12]; echo "<br>";
+// print_r(array_change_key_case($data,0)); echo "<br>";
+// print_r(array_chunk($arr,2)); echo "<br>";
+// print_r(array_combine($arr,$ar)); echo "<br>";
+// print_r(array_column($data,"rohit")); echo "<br>";
+// print_r(array_count_values($arr)); echo "<br>";
+// print_r(array_diff($ar,$arr)); echo "<br>";
+// print_r(array_diff_assoc());
+// $arr=array_fill(5,8,89); echo "<br>";
+// print_r($arr); echo "<br>";
+// print_r(array_intersect($arr,$ar)); echo "<br>";
+// print_r(array_intersect_key());
+// print_r(array_intersect_assoc());
+// array_key_exists("rohit",$data); echo "<br>";
+// array_flip();
+// array_keys();
+// array_sum();
+// array_push();
+// array_pop();
+// unset();
+// array_product();
+// array_reverse();
+// array_replace();
+// array_merge($arr,$ar);
+// array_search();
+// array_splice();
+// shuffle();
+// sort();
+// rsort();
+// ksort();
+// krsort();
+// asort();
+// arsort();
+// natsort();
+// natcasesort();
+
+?>

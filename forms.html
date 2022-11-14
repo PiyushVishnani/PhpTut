@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="data.php" method="post">
+        <table>
+        <tr><td><label>Enter your name:</label></td>
+        <td><input type="text" name="username" autocomplete="off" autofocus placeholder="your name" ></td></tr>
+
+        <tr><td><label>Enter your number:</label></td>
+        <td><input type="number" name="usernumber" autocomplete="off" autofocus placeholder="your number"></td></tr>
+
+        <tr><td><label>Enter your password:</label></td>
+        <td><input type="password" name="userpassword" autocomplete="off" placeholder="your password"></td></tr>
+        <tr><td><label>Address:</label></td><td><textarea name="Address" cols="20" rows="1"></textarea></td></tr>
+        <tr><td><label>Gender:</label></td>
+        <td>M<input type="radio" name="male"></td>
+        <td>F<input type="radio" name="female"></td>
+        </tr>
+        <tr><td><input type="checkbox" name="male"></td></tr>
+        <tr><td><input type="datetime"></td></tr>
+        <tr><td><input type="submit"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
